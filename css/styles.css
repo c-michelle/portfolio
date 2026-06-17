@@ -163,8 +163,8 @@ nav {
     margin: 1rem 0 1rem 2rem;
 }
 
-.logo-btn {
-    background-color: #12172a;
+.logo-svg {
+    fill: white;
 }
 
 .btn a {
@@ -172,3 +172,13 @@ nav {
     color: white;
 }
 
+.slide-in {
+    opacity: 0;
+    transform: translateY(3rem);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.slide-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
