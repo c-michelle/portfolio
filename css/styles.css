@@ -1,4 +1,174 @@
 body {
-    background-color: black;
-    color: magenta
+    background-color: #0d111f;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
 }
+
+.cursor {
+    position: fixed;
+    width: 15rem;
+    height: 15rem;;
+    border-radius: 50%;
+    background: rgba(139, 107, 255, 0.15);
+    filter: blur(60px);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.nav-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #0d111f;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.nav-title {
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: 0 solid transparent;
+    border-radius: 10%;
+    padding: 0.3rem 0.7rem;
+}
+
+.nav-title:hover {
+    background: #13192b;
+    color: #b9a6ff;
+}
+
+.nav-element {
+    margin: 0 3rem;
+}
+
+.nav-logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-logo a:hover {
+    color: #61b1e3;
+}
+
+.front-container {
+    padding-top: 9rem;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.hero-container {
+    padding: 2rem 7rem;
+}
+
+.hero-title {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.hero-name{
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.about-me {
+    display: column;
+    justify-content: column;
+    font-size: 1.2rem;
+    border: transparent;
+    border-radius: 20px;
+    padding: 2rem;
+    background-color: #12172a;
+}
+
+.font-basic {
+    --tw-text-opacity: 1;
+    color: rgb(128 142 163 / var(--tw-text-opacity));
+}
+
+.font-bold {
+    font-weight: 500;
+}
+
+.font-white {
+    color: white;
+}
+
+.font-gradient {
+    background: linear-gradient(45deg, #bf6bff, #61b1e3);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    display: inline-block;
+}
+
+.site-section {
+    padding: 2rem 8rem;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.site-section h2 {
+    font-size: 2.7rem;
+    margin-bottom:2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background: #8b6bff;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.btn:hover {
+    translate: 2px 1px;
+    background: #9d82ff;
+}
+
+.resume-btn {
+    margin: 1rem 0 1rem 2rem;
+}
+
+.logo-btn {
+    background-color: #12172a;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
