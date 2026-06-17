@@ -16,7 +16,7 @@ const observer = new IntersectionObserver((entries) => {
         }
     });
 }, {
-    threshold: 0.2
+    threshold: 0.1
 });
 
 slideElements.forEach((element) => observer.observe(element));

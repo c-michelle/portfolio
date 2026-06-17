@@ -98,7 +98,7 @@ nav {
 
 .about-me {
     display: column;
-    justify-content: column;
+    flex-direction: column;
     font-size: 1.2rem;
     border: transparent;
     border-radius: 20px;
@@ -150,7 +150,7 @@ nav {
     cursor: pointer;
     color: white;
     border-radius: 5px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.1rem;
 }
 
@@ -163,13 +163,14 @@ nav {
     margin: 1rem 0 1rem 2rem;
 }
 
-.logo-svg {
-    fill: white;
-}
-
 .btn a {
     text-decoration: none;
     color: white;
+}
+
+.logo-btn {
+    filter: grayscale(0%) brightness(100%);
+
 }
 
 .slide-in {
@@ -181,4 +182,11 @@ nav {
 .slide-in.show {
     opacity: 1;
     transform: translateY(0);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 }
