@@ -49,7 +49,7 @@ nav {
 
 .nav-title {
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-decoration: none;
     border: 0 solid transparent;
     border-radius: 10%;
@@ -76,7 +76,6 @@ nav {
 
 .front-container {
     padding-top: 9rem;
-    width: 100vw;
     min-height: 100vh;
 }
 
@@ -109,6 +108,7 @@ nav {
 .font-basic {
     --tw-text-opacity: 1;
     color: rgb(128 142 163 / var(--tw-text-opacity));
+    line-height: 1.5;
 }
 
 .font-bold {
@@ -188,5 +188,97 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 1.8rem;
+    background-color: #12172a;
+    min-height: 26rem;
+    max-width: 15rem;
+}
+
+.project-card:hover {
+    border-color: #8b6bff;
+}
+
+.project-card h3 {
+    margin-bottom: 0;
+}
+
+.skills-container {}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1.7rem 0 0 0;
+    padding: 0;
+}
+
+.skill {
+    list-style-type: none;
+    border: 1.5px solid #8b6bff;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0;
+    width: 100%;
+    max-width: 40rem;
+}
+
+.one-line-input {
+    padding: 0.5rem;
+    border: 1px solid #8b6bff;
+    border-radius: 15px;
+    background-color: #12172a;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.text-area-input {
+    padding: 0.5rem;
+    border: 1px solid #8b6bff;
+    border-radius: 15px;
+    background-color: #12172a;
+    color: white;
+    min-height: 10rem;
+    font-size: 1.1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }

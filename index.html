@@ -27,7 +27,7 @@
         </header>
         
         <div class="hero-container slide-in">
-            <h1 class="hero-title font-basic">Hey there, my name is</h1>
+            <h1 class="hero-title font-basic">Hey there 👋, my name is</h1>
             <h1 class="hero-name font-gradient">Michelle Chong</h1>
             <h1 class="hero-title font-basic">I'm a <span class="font-bold font-white">restauranteur & computer science student</span> building for the web.</h1>
         </div>
@@ -49,49 +49,84 @@
                 currently seeking opportunities to apply my technical skills in a professional environment and 
                 continue growing as a software developer through internships and real-world projects.
             </p>
-            <div class="logo-container">
+            <div class="logo-container slide-in">
                 <a href="sample-resume.txt" target="_blank"><button class="resume-btn btn">📄 Resume</button></a>
-                <a href="www.linkedin.com/in/michelle-m-chong" target="_blank" class="logo-btn"><img height="40" src="./images/linkedin-logo.png" alt="LinkedIn"></a>
+                <a href="https://www.linkedin.com/in/michelle-m-chong" target="_blank" class="logo-btn"><img height="40" src="./images/linkedin-logo.png" alt="LinkedIn"></a>
                 <a href="https://github.com/c-michelle" target="_blank" class="logo-btn"><img height="55" src="./images/github-logo.png" alt="Github"></a>
-                <a class="logo-btn"><img height="30" src="./images/logo.png" alt="Logo"></a>
+                <a href="#contact" target="_blank" class="logo-btn"><img height="50" src="./images/email-logo.png" alt="Email"></a>
             </div>
         </div>
     </div>
 
     <div id="projects" class="site-section slide-in">
-        <h2>Projects</h2>
+        <h2 class="font-gradient">Projects</h2>
         <div class="projects-container">
             <article class="project-card">
                 <h3>Portfolio Website</h3>
                 <p class="font-basic">
                     A responsive one-page portfolio website built with HTML, CSS, and JavaScript.
                 </p>
+                <img src="./images/project-sample.png" height="150" alt="Portfolio Website Screenshot">
+                <div class="skills-container">
+                    <ul class="skills-list">
+                        <li class="skill">HTML</li>
+                        <li class="skill">CSS</li>
+                        <li class="skill">JavaScript</li>
+                    </ul>
+                </div>
             </article>
             <article class="project-card">
                 <h3>Library Database Web App</h3>
                 <p class="font-basic">
                 A full-stack database project using Node.js, Express, Handlebars, and MariaDB.
                 </p>
+                <img src="./images/project-sample.png" height="150" alt="Library Database Web App Screenshot">
+                <div class="skills-container">
+                    <ul class="skills-list">
+                        <li class="skill">Node.js</li>
+                        <li class="skill">Express</li>
+                        <li class="skill">Handlebars</li>
+                        <li class="skill">MariaDB</li>
+                    </ul>
+                </div>
             </article>
             <article class="project-card">
                 <h3>Restaurant Scheduling Web App</h3>
                 <p class="font-basic">
                 A full-stack database project using Node.js, Express, Handlebars, and MariaDB.
                 </p>
+                <img src="./images/project-sample.png" height="150" alt="Restaurant Scheduling Web App Screenshot">
+                <div class="skills-container">
+                    <ul class="skills-list">
+                        <li class="skill">Node.js</li>
+                        <li class="skill">Express</li>
+                        <li class="skill">Handlebars</li>
+                        <li class="skill">MariaDB</li>
+                    </ul>
+                </div>
             </article>
         </div>
     </div>
 
-    <div id="experience">
-        <h2>Work Experience</h2>
-        <p class="font-basic">HTML, CSS, JavaScript, Node.js, Express, SQL, Git, GitHub</p>
+    <div id="experience" class="site-section slide-in">
+        <h2 class="font-gradient">Work Experience</h2>
+        <p class="font-basic">[INSERT JOB DESCRIPTIONS HERE]</p>
     </div>
 
-    <div id="contact">
-        <h2>Contact</h2>
-        <p class="font-basic">Email: your-email@example.com</p>
-        <p class="font-basic">GitHub: github.com/c-michelle</p>
-        <p class="font-basic">LinkedIn: linkedin.com/in/your-profile</p>
+    <div id="contact" class="site-section slide-in">
+        <h2 class="font-gradient">Contact</h2>
+        <div class="contact-section">
+            <div class="logo-container">
+                <a href="https://www.linkedin.com/in/michelle-m-chong" target="_blank" class="logo-btn"><img height="40" src="./images/linkedin-logo.png" alt="LinkedIn"></a>
+                <a href="https://github.com/c-michelle" target="_blank" class="logo-btn"><img height="55" src="./images/github-logo.png" alt="Github"></a>
+            </div>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <input class="one-line-input"type="text" name="name" placeholder="Enter your name..." required>
+                <input class="one-line-input" type="email" name="email" placeholder="Enter your email..." required>
+                <textarea class="text-area-input" name="message" placeholder="Enter your message..." required></textarea>
+                <button class="btn" type="submit">Send Message</button>
+            </form>
+        </div>
     </div>
 
     <footer>
