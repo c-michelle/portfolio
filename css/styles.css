@@ -64,11 +64,12 @@ nav {
 
 .nav-logo a {
     text-decoration: none;
-    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .nav-logo a:hover {
-    color: #61b1e3;
+    color: white;
 }
 
 .front-container {
@@ -114,6 +115,10 @@ nav {
     line-height: 1.5;
 }
 
+.font-italic {
+    font-style: italic;
+}
+
 .font-bold {
     font-weight: 500;
 }
@@ -128,6 +133,25 @@ nav {
     color: transparent;
     -webkit-background-clip: text;
     display: inline-block;
+}
+
+.blinking-green {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #1af92d; 
+  border-radius: 50%; 
+  animation: blink 1.9s infinite; /* Connects the animation below */
+  vertical-align: middle;
+}
+
+@keyframes blink {
+  0%, 100% {opacity: 1;}
+  50% {opacity: 0.3;}
+}
+
+.open-internship {
+    font-size: 1.2rem;
 }
 
 .site-section {

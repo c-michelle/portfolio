@@ -21,6 +21,16 @@ const observer = new IntersectionObserver((entries) => {
 
 slideElements.forEach((element) => observer.observe(element));
 
+// 
+if ("scrollRestoration" in window.history) {
+    window.history.scrollRestoration = "manual";
+}   
+
+window.addEventListener("load", () => {
+    document.documentElement.style.scrollBehavior = "auto";
+    window.scrollTo(0, 0);
+});
+
 // Smooth scrolling for navigation links
 document.querySelectorAll(".nav-el").forEach((link) => {
     link.addEventListener("click", (e) => {
