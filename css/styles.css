@@ -23,7 +23,7 @@ body {
     top: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #0d111f;
+    background-color: rgb(13, 17, 31, 90%);
 }
 
 nav {
@@ -48,16 +48,13 @@ nav {
 }
 
 .nav-title {
-    font-weight: 500;
-    font-size: 1.1rem;
+    font-weight: 400;
+    font-size: 1rem;
     text-decoration: none;
-    border: 0 solid transparent;
-    border-radius: 10%;
     padding: 0.3rem 0.7rem;
 }
 
 .nav-title:hover {
-    background: #13192b;
     color: #b9a6ff;
 }
 
@@ -81,18 +78,24 @@ nav {
 
 .hero-container {
     padding: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-title {
     font-size: 1.7rem;
     font-weight: 400;
-    margin: 0 auto;
+    margin: 1.5rem 0;
+    text-align: center;
 }
 
-.hero-name{
+.hero-name {
     font-size: 5rem;
     font-weight: 700;
-    margin: 0 auto;
+    margin: 0;
+    text-align: center;
 }
 
 .about-me {
@@ -155,8 +158,7 @@ nav {
 }
 
 .btn:hover {
-    translate: 2px 1px;
-    background: #9d82ff;
+    background: #6e59b8;
 }
 
 .resume-btn {
