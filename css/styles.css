@@ -99,6 +99,10 @@ nav {
     text-align: center;
 }
 
+.open-internship-container {
+    margin: 0 2rem;
+}
+
 .about-me {
     display: column;
     flex-direction: column;
@@ -152,6 +156,7 @@ nav {
 
 .open-internship {
     font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .site-section {
