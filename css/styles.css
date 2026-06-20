@@ -149,6 +149,17 @@ nav {
   vertical-align: middle;
 }
 
+.blinking-scroll {
+    bottom: 2rem;
+    left: 50%;
+
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+
+    animation: blink 2s infinite;
+}
+
 @keyframes blink {
   0%, 100% {opacity: 1;}
   50% {opacity: 0.3;}
