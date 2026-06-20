@@ -210,9 +210,8 @@ nav {
     color: white;
 }
 
-.logo-btn {
-    filter: grayscale(0%) brightness(100%);
-
+.logo-btn:hover {
+    filter: invert(60%) sepia(63%) saturate(4768%) hue-rotate(236deg) brightness(101%) contrast(102%);
 }
 
 .slide-in {
