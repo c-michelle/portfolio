@@ -323,6 +323,10 @@ form {
     font-size: 1.1rem;
 }
 
+.font-placeholder::placeholder {
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+}
+
 footer {
     display: flex;
     justify-content: center;
