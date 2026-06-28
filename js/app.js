@@ -52,3 +52,12 @@ document.querySelectorAll(".nav-el").forEach((link) => {
         history.replaceState(null, "", window.location.pathname);
     });
 });
+
+// Particles.js configuration
+particlesJS.load(
+    "particles-js",
+    "js/particles-config.json",
+    function () {
+        console.log("particles.js loaded");
+    }
+);

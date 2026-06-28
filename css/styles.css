@@ -6,6 +6,12 @@ body {
     font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
 }
 
+#particles-js {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+}
+
 .cursor {
     position: fixed;
     width: 15rem;
