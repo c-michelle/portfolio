@@ -109,13 +109,14 @@ nav {
     margin: 0 2rem;
 }
 
-.about-me {
+.section-box {
     display: column;
     flex-direction: column;
     font-size: 1.2rem;
     border: transparent;
     border-radius: 20px;
     padding: 2rem;
+    padding: 2rem 4rem;
     background-color: #12172aB3;
 }
 
