@@ -178,6 +178,7 @@ nav {
 }
 
 .site-section {
+    scroll-margin-top: 5rem;
     padding: 2rem 8rem;
     display: column;
     justify-content: center;
@@ -308,7 +309,7 @@ h4 {
 form {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.7rem;
     margin: 2rem 0;
     width: 100%;
     max-width: 40rem;
