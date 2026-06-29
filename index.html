@@ -11,13 +11,18 @@
 <body>
     <div id="particles-js"></div>
     <div class="cursor"></div>
+
+    <!-- Navigation -->
     <div class="front-container">
         <header class="nav-header">
             <nav>
                 <div class="nav-logo-wrapper nav-element">
                     <h1 class="nav-logo"><a class="font-gradient nav-el" href="#">&lt;MC/&gt;</a></h1>
                 </div>
-                <div class="navbar nav-element">
+
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation">☰</button>
+
+                <div id="navbar" class="navbar nav-element">
                     <ul>
                         <li><a href="#about" class="nav-title font-basic nav-el">About</a></li>
                         <li><a href="#projects" class="nav-title font-basic nav-el">Projects</a></li>
@@ -27,7 +32,8 @@
                 </div>    
             </nav>
         </header>
-        
+
+        <!-- Hero Section -->
         <div class="hero-container slide-in">
             <h1 class="hero-title font-basic">Hey there 👋, my name is</h1>
             <h1 class="hero-name font-gradient">Michelle Chong</h1>
@@ -38,11 +44,10 @@
                     <h1 class="open-internship font-italic font-basic font-gradient">Open to internship opportunities</h1>
                 </div></h1>
             </h1>
-            <!--Add blinking scroll down message in hero section-->
-            <div class="blinking-scroll"></div>
         </div>
     </div>                                     
 
+    <!-- About Section -->
     <div id="about" class="site-section">
         <h2 class="font-gradient slide-in">About Me</h2>
         <div class="about-me section-box slide-in">
@@ -68,6 +73,7 @@
         </div>
     </div>
 
+    <!-- Projects Section -->
     <div id="projects" class="site-section">
         <h2 class="font-gradient slide-in">Projects</h2>
         <div class="projects-container slide-in">
@@ -119,6 +125,7 @@
         </div>
     </div>
 
+    <!-- Experience Section -->
     <div id="experience" class="site-section">
         <h2 class="font-gradient slide-in">Experience</h2>
         <div class="job-desc section-box slide-in">
@@ -138,6 +145,7 @@
         </div>
     </div>
 
+    <!-- Contact Section -->
     <div id="contact" class="site-section">
         <h2 class="font-gradient slide-in">Contact</h2>
         <div class="contact-section slide-in">
@@ -157,6 +165,7 @@
         </div>
     </div>
 
+    <!-- Footer -->
     <footer>
         <p class="font-basic">&copy; 2026 Michelle Chong. All rights reserved.</p>
     </footer>

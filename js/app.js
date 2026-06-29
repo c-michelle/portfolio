@@ -99,3 +99,17 @@ form.addEventListener('submit', async (e) => {
         submitBtn.disabled = false;
     }
 });
+
+// Hamburger menu toggle
+const hamburger = document.getElementById("hamburger");
+const navbar = document.getElementById("navbar");
+
+hamburger.addEventListener("click", () => {
+  navbar.classList.toggle("active");
+
+  if (navbar.classList.contains("active")) {
+    hamburger.textContent = "✕";
+  } else {
+    hamburger.textContent = "☰";
+  }
+});
