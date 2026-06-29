@@ -113,17 +113,14 @@ nav {
 HERO
 ==============================================*/
 
-.front-container {
-    padding-top: 9rem;
-    min-height: 100vh;
-}
-
 .hero-container {
-    padding: 2rem auto;
+    padding: 9rem auto 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+
 }
 
 .hero-title {
@@ -324,6 +321,12 @@ PROJECTS
     margin-bottom: 0;
 }
 
+.project-image {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
 .skills-list {
     display: flex;
     justify-content: center;
@@ -410,8 +413,8 @@ MOBILE
     }
 
     .project-card {
-        min-height: 22rem;
-        max-width: 12rem;
+        min-height: auto;
+        max-width: 90%;
         padding: 1.5rem;
     }
 
@@ -442,7 +445,7 @@ MOBILE
     .navbar.active {
         display: block;
         margin: 0;
-        
+
     }
 
     .navbar ul {
