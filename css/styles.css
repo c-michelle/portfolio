@@ -240,6 +240,15 @@ nav {
     gap: 2rem;
 }
 
+h3 {
+    margin-bottom: 0;
+}
+
+h4 {
+    margin: 0;
+    font-weight: 400;
+}
+
 .projects-container {
     display: flex;
     justify-content: center;
