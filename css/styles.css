@@ -2,8 +2,13 @@
 GLOBAL STYLES
 ==============================================*/
 
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #0d111f;
+    /* background-color: #0d111f; */
+    background: #0d111f;
     color: white;
     margin: 0;
     padding: 0;
