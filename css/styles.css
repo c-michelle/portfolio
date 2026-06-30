@@ -299,7 +299,7 @@ PROJECTS
 .projects-container {
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: stretch;
     flex-wrap: wrap;
     gap: 2.5rem;
 }
